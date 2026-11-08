@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dataset files
+data/
+*.csv
+*.pcap
+*.pcapng
+
+# Generated outputs
+*.log
+*.tmp
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Backup files
+*.backup
+
+# Keep only the validated trained model
+models/*.pkl
+!models/cicids2017_validated_model.pkl
+
+# Local development files
+.agents/
